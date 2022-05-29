@@ -1,0 +1,15 @@
+{
+    "name": "nextcloud-apps/calendarprint",
+    "description": "a plugin to print calendar to pdf",
+    "type": "project",
+    "license": "AGPL",
+    "authors": [
+        {
+            "name": "Tim Oberländer"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^5.4"
+    }
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>calendarprint</id>
+    <name>Calendar Print</name>
+    <summary>a plugin to print calendar to pdf</summary>
+    <description><![CDATA[a plugin to add a print button to the calendar context menu]]></description>
+    <version>0.0.1</version>
+    <licence>agpl</licence>
+    <author mail="tim_oberlaender@riseup.net" >Tim Oberländer</author>
+    <namespace>CalendarPrint</namespace>
+    <category>tools</category>
+    <bugs>https://github.com/tim12312/CalendarPrint</bugs>
+    <dependencies>
+        <nextcloud min-version="15" max-version="15"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>Print</name>
+            <route>calendarprint.page.index</route>
+        </navigation>
+    </navigations>
+</info>
